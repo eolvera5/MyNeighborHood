@@ -1,0 +1,75 @@
+
+.searchbar {
+    font-family: 'Helvetica';
+    color: #4b3314 !important;
+    margin-left: 55px;
+    font-size: 16px !important;
+}
+
+ .inp {
+     position: relative;
+     margin: auto;
+     width: 100%;
+     max-width: 40px;
+     padding: 20px;
+}
+ .inp .label {
+     position: absolute;
+     top: 16px;
+     left: 10px;
+     font-size: 18px;
+     color: #4b3314;
+     font-weight: 300;
+}
+ .inp svg {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     height: 26px;
+     fill: none;
+}
+ .inp svg path {
+     stroke: #4b3314;
+     stroke-width: 2;
+}
+ .inp .border {
+     position: absolute;
+     bottom: 0;
+     left: 120px;
+     height: 2px;
+     right: 0;
+     background: #4b3314;
+      margin-top:20px;
+}
+ .inp input {
+     width: 100%;
+     border: 0;
+     height: 48px;
+     font-size: 9px;
+     font-weight: 500;
+     background: none;
+     border-radius: 0;
+     color: #aa987d;
+}
+ .inp input:focus {
+     background: none;
+     outline: none;
+}
+
+ .inp input:focus + span + svg path {
+     stroke: #aa987d;
+}
+ .inp input:focus + span + svg + .border {
+     background: #aa987d;
+}
+@media screen and (min-width: 500px){
+
+  .inp {
+      position: relative;
+      margin: auto;
+      width: 100%;
+      max-width: 100%;
+      padding: 20px;
+ }
+
+}

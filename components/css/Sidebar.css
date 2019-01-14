@@ -1,0 +1,346 @@
+.sidenav {
+    height: 100%;
+    width: 100%;
+    margin-top:65px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #efd7ab;
+    overflow-x: hidden;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-size: 15px;
+    font-family: 'Helvetica';
+}
+
+
+.sidenav a {
+    text-align: left;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #4b320d;
+    display: block;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    margin-top:20px;
+}
+.sidenav a:hover {
+    color: #4B3314;
+}
+.inp {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+#main {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.top-section {
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top:20px;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #307222;
+}
+.mainheading {
+    font-family: 'Arial';
+    color: #fff;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.hamburger-box {
+    height: 40px !important;
+}
+.map-area > * > * {
+    height: 95% !important;
+}
+.placediv :hover {
+    background-color: #aa987d;
+    cursor: pointer;
+}
+
+
+.fs-logo {
+    margin-top: 125px;
+    max-width: 100%;
+}
+
+
+@media screen and (min-width: 2200px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top: 46px;
+        height: 100%;
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+}
+
+
+@media screen and (min-width: 1800px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top: 46px;
+        height: 100%;
+        width: 350%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+}
+
+
+@media screen and (min-width: 1500px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top: 46px;
+        height: 100%;
+        width: 90%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top: 46px;
+        height: 100%;
+        width: 80%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+}
+
+
+
+@media screen and (min-width: 800px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top: 46px;
+        height: 100%;
+        width: 60%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+}
+
+@media screen and (min-width: 555px){
+    .sidelogo {
+        display: none;
+    }
+
+    .sidenav {
+        margin-top:67px;
+        height: 100%;
+        width: 30%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #efd7ab;
+        overflow-x: hidden;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-size: 15px;
+        font-family: 'Helvetica';
+    }
+    .sidenav a {
+        text-align: left;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: #4b320d;
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        margin-top:10px;
+    }
+    .sidenav a:hover {
+        color: #4B3314;
+    }
+
+    #main {
+        padding: 0px;
+        width: 100%;
+        height: 70%;
+
+    }
+    .top-section {
+      -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #307222;
+    }
+    .mainheading {
+        font-family: 'Arial';
+        color: #fff;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hamburger-box {
+        height: 40px !important;
+    }
+
+    .placediv :hover {
+        background-color: #aa987d;
+        cursor: pointer;
+    }
+
+    .fs-logo {
+        margin-top: 125px;
+        max-width: 100%;
+    }
+
+
+}
